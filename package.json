@@ -1,0 +1,15 @@
+
+
+{
+  "name": "orangehrm-cypress",
+  "version": "1.0.0",
+  "description": "Automação Cypress para OrangeHRM — começando pelos cenários de login",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:login": "cypress run --spec cypress/e2e/login.cy.js --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
